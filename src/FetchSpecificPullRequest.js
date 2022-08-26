@@ -21,7 +21,7 @@ export default class FetchSpecificPullRequest extends React.Component {
         const response = await fetch(url, {
             method: "GET",
             headers: {
-                Authorization: `token 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`
+                Authorization: `token ${process.env.REACT_APP_TOKEN}`
             }
         });
         const data = await response.json();

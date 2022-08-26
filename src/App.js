@@ -9,7 +9,10 @@ import FetchPullRequestData from "./FetchPullRequestData";
 import FetchOpenPullRequestData from "./FetchOpenPullRequestData";
 
 const repoNames = [
-  'terraform-practice', 'k8s-hackathon', 'containers-and-k8s-hackathon', 'AspNetCore.Docs'
+  'github-dashboard',
+  'terraform-practice',
+  'k8s-hackathon',
+  'AspNetCore.Docs'
 ]
 
 function App() {
